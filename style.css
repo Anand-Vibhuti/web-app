@@ -1,0 +1,104 @@
+body{
+    font-family: sans-serif;
+    
+}
+
+.menu-item {
+    width: 250px;
+    height: 50px;
+    border: 1px solid gray;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container {
+  display: flex;
+
+}
+
+.hover {
+    background: lightgray
+}
+
+.selected{
+    color: aliceblue;
+    background: grey
+}
+
+button {
+ padding: 1.3em 3em;
+ font-size: 12px;
+ text-transform: uppercase;
+ letter-spacing: 2.5px;
+ font-weight: 500;
+ color: #000;
+ background-color: #fff;
+ border: none;
+ border-radius: 45px;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ outline: none;
+}
+
+button:hover {
+ background-color: #2EE59D;
+ box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+ color: #fff;
+ transform: translateY(-7px);
+}
+
+button:active {
+ transform: translateY(-1px);
+}
+select {
+    cursor: pointer;
+    width: 50px;
+    min-height: 60px;
+    max-height: 50px;
+    border-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 2px 4px 8px #c5c5c5;
+    transition: all 300ms;
+}
+
+select.opened {
+    overflow-y: scroll;
+}
+
+select {
+    width: 260px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    transition: all 300ms;
+}
+
+select:nth-child(1) {
+    border-radius: 15px;
+}
+
+select:hover {
+    background-color: brown;
+    color: white;
+}
+input{height:26px;margin: 5px;padding:5px;border-radius: 1rem;font-size: 1.5rem;width:350px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
